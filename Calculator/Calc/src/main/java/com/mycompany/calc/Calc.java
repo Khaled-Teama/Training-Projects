@@ -26,7 +26,8 @@ public class Calc {
     }
    
     public static void main(String[] args) {
-        Scanner in = new Scanner (System.in);
+       int i = 0;
+        while (i<3){ Scanner in = new Scanner (System.in);
         System.out.println("------------------------ Welcome to calculator App Made by khaled ------------------------");
         System.out.println("Enter the first number :");
         double n1 = in.nextDouble();
@@ -37,10 +38,10 @@ public class Calc {
         char x = in.nextLine().charAt(0);
         
         switch (x) {
-            case '-' :
+            case '+' :
                 Sum (n1,n2);
                 break;
-            case '+' :
+            case '-' :
                 Sub(n1,n2);
                 break;
             case '/' :
@@ -49,7 +50,7 @@ public class Calc {
             case '*' :
                 mul(n1,n2);
                 break;
-        }
+        } i++;}
         
     }
 }
