@@ -1,7 +1,12 @@
+body {
+  font-family: "Libertinus Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
 .cap{
     font-size:20px;
     font-weight:bold;
-    border : 1px solid blanchedalmond;
+    border : 2px solid rgb(198, 130, 29);
     background-color:bisque;
     color:brown;
 }
@@ -9,6 +14,7 @@ table {
     width:100%;
     border : 3px solid chocolate;
     border-spacing:5px;
+    background-color:burlywood;
 }
 table td {
     border : 3px solid goldenrod;
