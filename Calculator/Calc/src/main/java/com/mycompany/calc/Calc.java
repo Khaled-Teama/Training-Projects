@@ -32,6 +32,7 @@ public class Calc {
         double n1 = in.nextDouble();
         System.out.println("Enter the second number :");
         double n2 = in.nextDouble();
+        in.nextLine();
         System.out.println("please select the required operation : +,-,/,*");
         char x = in.nextLine().charAt(0);
         
@@ -45,7 +46,9 @@ public class Calc {
             case '/' :
                 div(n1,n2);
                 break;
-            case
+            case '*' :
+                mul(n1,n2);
+                break;
         }
         
     }
