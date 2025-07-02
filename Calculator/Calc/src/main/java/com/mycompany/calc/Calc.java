@@ -26,9 +26,27 @@ public class Calc {
     }
    
     public static void main(String[] args) {
-        
+        Scanner in = new Scanner (System.in);
         System.out.println("------------------------ Welcome to calculator App Made by khaled ------------------------");
+        System.out.println("Enter the first number :");
+        double n1 = in.nextDouble();
+        System.out.println("Enter the second number :");
+        double n2 = in.nextDouble();
+        System.out.println("please select the required operation : +,-,/,*");
+        char x = in.nextLine().charAt(0);
         
+        switch (x) {
+            case '-' :
+                Sum (n1,n2);
+                break;
+            case '+' :
+                Sub(n1,n2);
+                break;
+            case '/' :
+                div(n1,n2);
+                break;
+            case
+        }
         
     }
 }
