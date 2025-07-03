@@ -8,6 +8,8 @@ body {
     align-items: center;
     background-image:url("img/n.png");
     background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
 }
 
 
@@ -21,6 +23,9 @@ div {
     align-items:center;
     flex-wrap:wrap;
     justify-content:space-around;
+    box-shadow:5px -7px 5px 5px rgb(60, 41, 77) ;
+    border-radius:10px;
+    position:relative;
 }
 
 div .inp {
@@ -33,4 +38,14 @@ label{
     font-weight:bold;
     color:blueviolet;
 
+}
+
+span{
+    position:absolute;
+    color:rgb(127, 0, 212);
+    left:350pxx;
+    top:160px;
+    font-size:30px;
+    font-weight:bold;
+    text-shadow:2px 1px 2px cornflowerblue;
 }
