@@ -13,16 +13,24 @@ body {
 
 div {
     display:flex;
-    background-color:red;
-    width:350px;
+    background-color:rgb(37, 7, 80);
+    opacity:.9;
+    width:360px;
     height:250px;
     justify-content: center;
     align-items:center;
     flex-wrap:wrap;
+    justify-content:space-around;
 }
 
 div .inp {
-
+    
     width:250px;
     height:35px;
+}
+label{
+    font-size:20px;
+    font-weight:bold;
+    color:blueviolet;
+
 }
