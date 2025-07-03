@@ -1,0 +1,28 @@
+* {
+    box-sizing:border-box;
+}
+body {
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-image:url("img/n.png");
+    background-size:cover;
+}
+
+
+div {
+    display:flex;
+    background-color:red;
+    width:350px;
+    height:250px;
+    justify-content: center;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+div .inp {
+
+    width:250px;
+    height:35px;
+}
