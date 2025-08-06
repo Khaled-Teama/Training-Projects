@@ -1,0 +1,24 @@
+body {
+    height:100vh;
+    width:100wh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color:bisque;
+
+}
+
+div {
+    display:flex;
+    background-color:cadetblue;
+    justify-content:center;
+    align-items:center;
+    border-radius:10px;
+
+}
+
+
+div .bb {
+    text-decoration:none;
+    font-size:100px;
+}
